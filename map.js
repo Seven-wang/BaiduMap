@@ -81,7 +81,7 @@ define(['src/js/common', 'src/js/core', 'src/js/dialog'], function(common, core,
                     dialog.log("酒店地图经纬度错误。");
                     return;
                 }
-                if(lat >= 3 && lat <= 54 && lng >= 73 && lng <= 136){                
+                if(lat >= 3 && lat <= 54 && lng >= 73 && lng <= 136){              
                 }
                 else{
                     dialog.log("酒店地图经纬度错误。");
